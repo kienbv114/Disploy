@@ -7,6 +7,7 @@ require('./db');
 
 // Khởi tạo ứng dụng Express
 const app = express();
+console.log(process.env.MONGODB_URI);  // Kiểm tra giá trị của MONGODB_URI
 
 // Middleware
 app.use(cors());
