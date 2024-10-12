@@ -11,6 +11,9 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
 
 // API lấy danh sách sinh viên
 app.get('/students', async (req, res) => {
