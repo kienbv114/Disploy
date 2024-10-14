@@ -13,7 +13,7 @@ console.log(process.env.MONGODB_URI);  // Kiểm tra giá trị của MONGODB_UR
 app.use(cors());
 app.use(bodyParser.json());
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Hello, World 17C SDN302!');
 });
 
 // API lấy danh sách sinh viên
